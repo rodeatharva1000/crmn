@@ -20,8 +20,9 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SAMESITE = 'None'
 SESSION_COOKIE_SAMESITE = 'None'
 CSRF_TRUSTED_ORIGINS = [
-    "https://crmn-production-8a0d.up.railway.app"
+    "https://*.railway.app"  # Allow all Railway subdomains
 ]
+
 
 
 # Quick-start development settings - unsuitable for production
